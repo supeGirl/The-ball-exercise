@@ -1,5 +1,8 @@
+* {
+  box-sizing: border-box;
+}
 
-body{
+body {
 background-color: black;
 }
 
@@ -15,4 +18,7 @@ h1 {
   width: 100px;
     color: white;
   height: 100px;
+  background-image: blue;
+  margin-bottom: 10px;
+  border-radius: 50%;
 }
