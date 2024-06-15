@@ -18,19 +18,22 @@ h1 {
   justify-content: center;
   align-items: center;
 }
+
 .ball {
   display: flex;
-  margin: auto;
   width: 100px;
-  color: white;
   height: 100px;
-  background-color: navy;
+  margin: auto;
   margin-bottom: 10px;
   border-radius: 50%;
-  transition: 1s;
-  justify-content: center;
+  background-color: navy;
+
   align-items: center;
+  justify-content: center;
+  transition: 1s;
+
+  cursor: pointer;
+  color: white;
   font-size: 22px;
   font-weight: bold;
-  cursor: pointer;
 }
