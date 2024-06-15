@@ -3,7 +3,9 @@
 function onBallClick(){
   var elBall1 = document.querySelector('.ball')
   var currMeasure = elBall1.offsetWidth // using vanilla js to get current width
-  var newMeasure = currMeasure + 50
+var randomInt = getRandomInt(20,61)
+
+  var newMeasure = currMeasure + randomInt
 
   if(newMeasure > 400) newMeasure = 100
 
