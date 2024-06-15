@@ -26,33 +26,9 @@ h1 {
   margin: auto;
   margin-bottom: 10px;
   border-radius: 50%;
-  background-color: navy;
-
-  align-items: center;
-  justify-content: center;
   transition: 1s;
-
-  cursor: pointer;
-  color: white;
-  font-size: 22px;
-  font-weight: bold;
-}
-
-.ball2 {
-  display: flex;
-  width: 100px;
-  height: 100px;
-  margin: auto;
-  margin-bottom: 10px;
-  border-radius: 50%;
-  background-color: rgb(166, 243, 204);
-
-  align-items: center;
   justify-content: center;
-  transition: 1s;
-
-  cursor: pointer;
-  color: white;
+  align-items: center;
   font-size: 22px;
   font-weight: bold;
 }
