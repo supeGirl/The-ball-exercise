@@ -3,6 +3,16 @@ body{
 background-color: black;
 }
 
-h1{
+h1 {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.ball {
+  display: flex;
+  margin: auto;
+  width: 100px;
     color: white;
+  height: 100px;
 }
