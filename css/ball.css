@@ -2,11 +2,11 @@
   box-sizing: border-box;
 }
 
-:root {
+/* :root {
   --first-color: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
   --second-color: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
   --third-color: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
-}
+} */
 
 body {
   background-color: black;
@@ -24,7 +24,7 @@ h1 {
   width: 100px;
   color: white;
   height: 100px;
-  background-image: var(--first-color);
+  background-color: navy;
   margin-bottom: 10px;
   border-radius: 50%;
   transition: 1s;

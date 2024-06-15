@@ -11,6 +11,6 @@ var randomInt = getRandomInt(20,61)
 
   elBall1.style.width = newMeasure + 'px'
   elBall1.style.height = newMeasure + 'px'
-
+  elBall1.style.backgroundColor = getRandomColor()
   elBall1.innerText = newMeasure 
 }
