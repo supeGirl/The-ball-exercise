@@ -37,3 +37,22 @@ h1 {
   font-size: 22px;
   font-weight: bold;
 }
+
+.ball2 {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  background-color: rgb(187, 240, 214);
+
+  align-items: center;
+  justify-content: center;
+  transition: 1s;
+
+  cursor: pointer;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
